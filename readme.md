@@ -18,16 +18,16 @@ uvicorn main:app --reload
 
 ## Docker image creation/run
 
-###Create image
+Create image
 
 ```bash
 sudo docker build -t myimage .
 ```
 
-###Run container
+Run container
 
 ```bash
-docker run -d --name mycontainer -p 80:80 myimage
+sudo docker run -d --name mycontainer -p 80:80 myimage
 ```
 
 check -> http://localhost/karekok/25
