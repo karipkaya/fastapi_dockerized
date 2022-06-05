@@ -2,12 +2,14 @@
 
 Dockerized fastapi example
 
-## Installation
+## 1. Local Development install 
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install requirements.
 
 ```bash
 pip install -r requirements.txt
+python -m venv .venv
+source .venv/bin/activate
 ```
 
 ## Usage
@@ -16,7 +18,8 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
-## Docker image creation/run
+## 2. Docker image creation/run
+This can be used if you like to run docker image locally instead of using development environment
 
 Create image
 
